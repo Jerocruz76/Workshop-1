@@ -65,14 +65,24 @@ alert("Hola! "+ nombreUsuario)
 if (confirm("Te gusta javascript?")){
     console.log("me alegra!")
 }
+else{
+    console.log("no me alegra")
+}
 
 // Sección 4: Uso de console para Depuración
 
 // Ejercicio 9: Escribe un mensaje de advertencia usando console.warn con el texto "Esto es solo una práctica".
 
+console.warn("Ésto es solo una práctica")
+
 // Ejercicio 10: Genera un mensaje de error utilizando console.error para simular un fallo al intentar ejecutar una operación.
 
+console.error("Error en la ejecución de la función")
+
 // Ejercicio 11: Crea una tabla en la consola a partir de un array con los números del 1 al 5 utilizando console.table.
+
+const arrayNum = [1,2,3,4,5]
+console.table(arrayNum)
 
 // Sección 5: Trabajando con el Script en un Archivo Externo
 
